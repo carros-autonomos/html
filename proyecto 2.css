@@ -1,52 +1,48 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
+h1 { font-size: 4.3em; }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2em; }
+p { font-size: 1.25em; }
+ul { list-style: none; }
+li { font-size: 1.25em; }
 
-button{
+button {
     font-size: 1.5;
     font-weight: bold;
     padding: 10px 20px;
-    border-radius: 10px ;
+    border-radius: 10px;
     border: 2px solid rgba(13, 21, 134, 0.966);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.966);
     color: aliceblue;
-
     background-color: darkblue;
-    
 }
-button:hover{
+
+button:hover {
     background-color: black;
 }
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
 }
 
-.color-acento{ color:rgba(10, 9, 10, 0); }
-
-header{
-    background-color: rgb(245,245,245);
-    
+header {
+    background-color: rgb(245, 245, 245);
 }
 
-header .logo{
+header .logo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
@@ -54,31 +50,31 @@ header .logo{
     font-size: 1.6em;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
 }
 
-header a{
+header a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
 
-header a:hover{
+header a:hover {
     color: rgb(78, 158, 134);
 }
 
-#hero{
+#hero {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,157 +83,108 @@ header a:hover{
     height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("https://media.somoselectricos.com/wp-content/uploads/2025/01/coche-autonomo-futurista-madrid.jpg");
+        rgba(7, 7, 7, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("https://media.somoselectricos.com/wp-content/uploads/2025/01/coche-autonomo-futurista-madrid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-#hero h1{
+#hero h1 {
     color: white;
 }
 
-#hero button{
+#hero button {
     font-size: 1.75em;
 }
 
-#miguel-omar .container{
+#miguel-omar .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#mas-sobre-los-carros-automaticos{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center;
+/* Eliminar el cuadro negro */
+#mas-sobre-los-carros-automaticos {
+    display: none; /* El cuadro negro ya no se muestra */
 }
 
-#mas-sobre-los-carros-automaticos .container{
-    padding: 150px 12px;
-}
-
-#mas-sobre-los-carros-automaticos h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
-
-#mas-sobre-los-carros-automaticos p{
-    display: none;
-}
-
-#mas-sobre-los-carros-automaticos .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
-}
-
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("https://blobcore.pulsoslp.com.mx/images/2025/03/10/ap25069670192193-f85a4de6-focus-0-0-1044-675.jpg");
-
-}
-
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5-j_Hx-7a-U3dl4DRFZ_o6rxpAE_47hSgA&s");
-}
-
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("https://cdn-cddji.nitrocdn.com/MexWHPihptiTBdzPKNbvAoRlIlncaLIJ/assets/images/optimized/rev-a90c194/www.corenalaw.com/wp-content/uploads/2023/02/Untitled-design-2-1024x525.png");
-
-}
-
-#caracteristicas .container{
+#caracteristicas .container {
     text-align: center;
     padding: 250px 12px;
 }
 
-#caracteristicas li{
+#caracteristicas li {
     margin: 16px 0px;
     font-weight: bold;
 }
 
-#final{
+#final {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: rgb(30, 30, 30);
     color: white;
     height: 80vh;
 }
 
-#final h2{
+#final h2 {
     font-size: 9vw;
 }
 
-#final button{
+#final button {
     font-size: 5vw;
 }
 
-footer{
-    background-color: rgb(230,230,230);
+footer {
+    background-color: rgb(230, 230, 230);
 }
 
-footer p{
+footer p {
     margin: 0;
     padding: 12px;
-    color: rgb(100,100,100);
+    color: rgb(100, 100, 100);
 }
 
-footer .container{
+footer .container {
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-@media (min-width: 850px){
-    header{
+/* Eliminamos el menú móvil */
+@media (min-width: 850px) {
+    /* Menú fijo */
+    header {
         position: fixed;
         width: 100%;
     }
 
-    header .container{
+    header .container {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    header nav{
+    header nav {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
     }
 
-    #hero h1{
+    #hero h1 {
         font-size: 5em;
     }
 
-    #mas-sobre-los-carros-automaticos{
+    #mas-sobre-los-carros-automaticos {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #mas-sobre-los-carros-automaticos .texto{
+    #mas-sobre-los-carros-automaticos .texto {
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -247,143 +194,145 @@ footer .container{
         justify-content: center;
     }
 
-    #mas-sobre-los-carros-automaticos h2{
+    #mas-sobre-los-carros-automaticos h2 {
         margin-top: 0px;
     }
 
-    #mas-sobre-los-carros-automaticos .img-container{
+    #mas-sobre-los-carros-automaticos .img-container {
         background-image: url("https://media.istockphoto.com/id/1383104602/es/foto/ia-de-autom%C3%B3viles-modernos-que-eval%C3%BAa-las-condiciones-de-conducci%C3%B3n-y-los-elementos-de-la-calle.jpg?s=612x612&w=0&k=20&c=5_e5kcbhh4MOY2E0ep03z-JJbAFnqIRJbiii85fDLGY=");
         background-size: cover;
         background-position: center center;
         height: 500px;
-        width: 400px; 
+        width: 400px;
     }
 
-    #mas-sobre-los-carros-automaticos .programas{
+    #mas-sobre-los-carros-automaticos .programas {
         display: flex;
         justify-content: center;
     }
 
-    #mas-sobre-los-carros-automaticos p{
+    #mas-sobre-los-carros-automaticos p {
         display: block;
         margin-bottom: 30px;
     }
 
-    #mas-sobre-los-carros-automaticos h2{
+    #mas-sobre-los-carros-automaticos h2 {
         font-size: 4em;
     }
 
-    #mas-sobre-los-carros-automaticos h3{
+    #mas-sobre-los-carros-automaticos h3 {
         margin-top: 0;
     }
 
-    #mas-sobre-los-carros-automaticos .carta{
+    #mas-sobre-los-carros-automaticos .carta {
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
 
-    .carta:first-child{
+    .carta:first-child {
         background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnS5rD2L1CegKObq-vaPJHArUqibKvRSB7Xw&s");
-
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnS5rD2L1CegKObq-vaPJHArUqibKvRSB7Xw&s");
     }
 
-    .carta:nth-child(2){
+    .carta:nth-child(2) {
         background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("https://noa.aon.es/wp-content/uploads/2022/10/digitalizacion-vehiculo-autonomo.jpg");
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url("https://noa.aon.es/wp-content/uploads/2022/10/digitalizacion-vehiculo-autonomo.jpg");
     }
 
-    .carta:nth-child(3){
+    .carta:nth-child(3) {
         background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("https://static.eldiario.es/clip/f1632b60-f2ff-4ade-9aee-c3045a321de3_16-9-discover-aspect-ratio_default_0.jpg");
-
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url("https://static.eldiario.es/clip/f1632b60-f2ff-4ade-9aee-c3045a321de3_16-9-discover-aspect-ratio_default_0.jpg");
     }
 
-    #caracteristicas{
+    #caracteristicas {
         background-image: url("");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
 
-    #caracteristicas .container{
+    #caracteristicas .container {
         text-align: initial;
     }
 
-    #caracteristicas ul{
+    #caracteristicas ul {
         margin-left: 100px;
     }
 
-    #final h2{
+    #final h2 {
         font-size: 5em;
     }
 
-    #final button{
+    #final button {
         font-size: 2em;
     }
 
-    footer .container{
+    footer .container {
         justify-content: flex-end;
     }
 }
 
 @media (min-width: 1200px) {
-    #caracteristicas{
+    #caracteristicas {
         background-position-x: calc(100vw - 800px);
     }
 }
 
-#main-container{
+#main-container {
     margin: 150px auto;
     width: 600px;
-
 }
 
-table{
+table {
     background-color: rgb(237, 241, 240);
     text-align: left;
     border-collapse: collapse;
     width: 100%;
-
 }
 
-th,td{
+th, td {
     padding: 20px;
 }
 
-thead{
+thead {
     background-color: rgb(6, 59, 6);
-    border-bottom: rgba(14, 15, 15, 0) 5px;
+    border-bottom: rgba(79, 205, 205, 0) 5px;
     color: rgb(240, 255, 255);
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
     background-color: rgb(241, 241, 241);
+}
 
+tr:hover td {
+    background-color: rgb(203, 203, 206);
+    color: azure;
 }
-tr:hover td{
-   background-color: rgb(203, 203, 206);
-   color: azure;
-}
+
 
 #mas-sobre-los-carros-automaticos2 {
-    background-color: rgb(30, 30, 30);
+    display: none; /
+}
+
+
+#mas-sobre-los-carros-automaticos2 {
+    background-color: rgb(18, 17, 17);
     color: white;
     text-align: center;
     padding: 50px 12px;
@@ -438,63 +387,68 @@ tr:hover td{
 
 #mas-sobre-los-carros-automaticos2 .carta:first-child {
     background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url("https://static.eldiario.es/clip/f1632b60-f2ff-4ade-9aee-c3045a321de3_16-9-discover-aspect-ratio_default_0.jpg");
-}
-
-#mas-sobre-los-carros-automaticos2 .carta:nth-child(2) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5-j_Hx-7a-U3dl4DRFZ_o6rxpAE_47hSgA&s");
-}
-
-#mas-sobre-los-carros-automaticos2 .carta:nth-child(3) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url("https://cdn-cddji.nitrocdn.com/MexWHPihptiTBdzPKNbvAoRlIlncaLIJ/assets/images/optimized/rev-a90c194/www.corenalaw.com/wp-content/uploads/2023/02/Untitled-design-2-1024x525.png");
-}
-
-@media (min-width: 850px) {
-    #mas-sobre-los-carros-automaticos2 .programas {
-        justify-content: space-evenly;
-    }
-
-    #mas-sobre-los-carros-automaticos2 .carta {
-        padding: 50px;
-        background-size: 100% 150px;
-        background-repeat: no-repeat;
-        background-position-y: 0;
-        background-color: rgba(50, 50, 50, 1);
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    }
-
-    #mas-sobre-los-carros-automaticos2 .carta:first-child {
-        background-image: linear-gradient(
             0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
-        ), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnS5rD2L1CegKObq-vaPJHArUqibKvRSB7Xw&s");
-    }
+        ),
+        url("https://static.eldiario.es/clip/f1632b60-f2ff-4ade-9aee-c3045a321de3_16-9-discover-aspect-ratio_default_0.jpg");
+}
 
-    #mas-sobre-los-carros-automaticos2 .carta:nth-child(2) {
-        background-image: linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ), url("https://noa.aon.es/wp-content/uploads/2022/10/digitalizacion-vehiculo-autonomo.jpg");
-    }
 
-    #mas-sobre-los-carros-automaticos2 .carta:nth-child(3) {
-        background-image: linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ), url("https://static.eldiario.es/clip/f1632b60-f2ff-4ade-9aee-c3045a321de3_16-9-discover-aspect-ratio_default_0.jpg");
-    }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0f1210;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.8em;
+    color: #2196F3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #131111;
+    margin-bottom: 15px;
+}
+
+
+h2, h3 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+p, h2, h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+body {
+    padding-top: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.container p {
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
